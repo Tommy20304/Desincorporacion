@@ -42,7 +42,7 @@ plantilla.get("/info-eliminar", verificarToken, async (req, res) => {
         let nuevoFila = {};
         nuevoFila['id'] = element.id_plantilla;
         nuevoFila['nombre'] = element.nombre.replace('.xlsx', '');
-        nuevoFila['imagen'] = formado.retornarRuta('imagen', element.nombre_imagen);
+        nuevoFila['imagen'] = element.nombre_imagen ;
         return nuevoFila;
     });
     return res.json({ datos: datos });
