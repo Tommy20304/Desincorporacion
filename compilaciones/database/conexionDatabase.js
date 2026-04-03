@@ -2,7 +2,7 @@ import pg from 'pg';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv'; //para cargar las variables de entorno desde un archivo .env
-import configuracion from '../../configuracion.json' with { type: 'json' }; //para cargar las variables de entorno desde un archivo .json
+
 // Obtener la ruta de la carpeta actual
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
