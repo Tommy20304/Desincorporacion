@@ -21,7 +21,7 @@ class FormarInfoPlanillas {
             'fuente': 'Arial',
             'tamaño letra': 10,
             'descripcion': 'un excel simple donde se coloca todos los datos buscados',
-            'imagen': 'http://localhost:3000/imagenes/simple.png',
+            'imagen': 'simple.png',
             'columnas': [],
             'limites': []
         };
