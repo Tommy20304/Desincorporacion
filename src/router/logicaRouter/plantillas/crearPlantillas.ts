@@ -41,7 +41,7 @@ class FormarInfoPlanillas {
             const plantilla  = {
                 nombre: nombreProcesado,
                 descripcion: descripcion,
-                imagen: this.retornarRuta("imagen", fila.nombre_imagen),
+                imagen: fila.nombre_imagen,
                 columnas: this.retornarColumnasDisponibles(fila),
                 columnasOriginales: fila.columnas_originales,
                 limites: [limite_inicial, fila.limite_final],
